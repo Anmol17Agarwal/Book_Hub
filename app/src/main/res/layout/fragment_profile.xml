@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment"
+    android:background="@color/colorAccent">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_fragment"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/txtProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfile"
+        android:layout_marginTop="30dp"
+        android:hint="name"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_profile"
+        android:drawablePadding="3dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"/>
+
+    <EditText
+        android:id="@+id/txtProfileEmailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfileName"
+        android:layout_marginTop="10dp"
+        android:hint="email ID"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_email_id"
+        android:drawablePadding="3dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"/>
+    <EditText
+        android:id="@+id/txtProfilePhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfileEmailId"
+        android:layout_marginTop="10dp"
+        android:hint="Phone Number"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="3dp"
+        android:inputType="phone"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"/>
+    <EditText
+        android:id="@+id/txtProfileAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfilePhoneNumber"
+        android:layout_marginTop="10dp"
+        android:hint="address"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_address"
+        android:drawablePadding="3dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"/>
+
+
+
+</RelativeLayout>
