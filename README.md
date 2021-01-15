@@ -1,5 +1,5 @@
 # Book_Hub
-The Book has been taught and developed by Internshala Trainings in its Android App Development Training program. This app uses Kotlin to build its functionality. The concepts covered this app constitutes of:
+The Book has been taught and developed by Internshala Trainings in its Android App Development Training program. This project was made during lockdown as my summer internship project. This app uses Kotlin to build its functionality. The concepts covered this app constitutes of:
 
 ## Concept
 - Layouts using XML
